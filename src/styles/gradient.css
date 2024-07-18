@@ -1,0 +1,17 @@
+.text-gradient-start {
+    background: linear-gradient(90deg, rgba(55, 65, 81, 1) 0%, rgba(55, 65, 81, 0.8) 50%, rgba(55, 65, 81, 0.6) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .text-gradient-middle {
+    background: linear-gradient(90deg, rgba(55, 65, 81, 0.8) 0%, rgba(55, 65, 81, 0.6) 50%, rgba(55, 65, 81, 0.4) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .text-gradient-end {
+    background: linear-gradient(90deg, rgba(55, 65, 81, 0.6) 0%, rgba(55, 65, 81, 0.4) 50%, rgba(55, 65, 81, 0.2) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
