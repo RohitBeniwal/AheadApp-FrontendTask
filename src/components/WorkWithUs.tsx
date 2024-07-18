@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const WorkWithUs = () => (
   <section className="bg-white py-16 px-6">
@@ -12,7 +13,7 @@ const WorkWithUs = () => (
           <div className="bg-white p-4 rounded-lg shadow-inner">
             <h4 className="text-lg font-bold text-gray-900 mb-2">About</h4>
             <p className="text-base text-gray-700">
-              At ahead our goal is to make self-improvement fun and lasting. We know there’s a way how to make it work. And that’s what aHead is all about!
+              At ahead our goal is to make self-improvement fun and lasting. We know theres a way how to make it work. And thats what aHead is all about!
             </p>
           </div>
           <div className="bg-yellow-100 p-4 rounded-lg shadow-inner">

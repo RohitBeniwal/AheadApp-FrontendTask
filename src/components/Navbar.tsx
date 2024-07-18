@@ -1,10 +1,11 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Navbar = () => (
   <nav className="bg-white py-4 shadow-md">
     <div className="container mx-auto flex justify-between items-center">
       <div className="flex items-center space-x-4">
-        <img src="/images/logo.png" alt="Logo" className="w-10 h-10" />
+        <Image src="/images/logo.png" alt="Logo" className="w-10 h-10" />
       </div>
       <ul className="flex space-x-8 text-lg">
         <li><a href="#emotions" className="hover:text-gray-600">Emotions</a></li>

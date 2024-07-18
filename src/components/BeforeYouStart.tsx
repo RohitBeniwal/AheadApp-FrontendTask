@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const BeforeYouStart = () => (
   <section className="bg-white py-48 px-6">

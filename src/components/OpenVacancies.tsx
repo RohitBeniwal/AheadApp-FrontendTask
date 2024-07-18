@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const OpenVacancies = () => (
   <section className="bg-white py-16 px-6">

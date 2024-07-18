@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const BestYouWithEQ = () => (
   <section className="bg-white py-64 px-6">

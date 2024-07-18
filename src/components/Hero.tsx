@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Hero = () => (
   <section className="bg-purple-50 ">
@@ -10,12 +11,12 @@ const Hero = () => (
           <button className="bg-black text-white px-6 py-3 rounded-full">Download app</button>
         </div>
         <div className="mt-8 flex items-center space-x-4 justify-center lg:justify-start">
-          <img src="/images/appstore-badge.png" alt="Download on the App Store" className="w-40" />
+          <Image src="/images/appstore-badge.png" alt="Download on the App Store" className="w-40" />
           <p className="mt-2 text-gray-700">100+ AppStore reviews</p>
         </div>
       </div>
       <div className="lg:w-1/2 flex justify-center lg:justify-end items-center lg:h-full h-96">
-        <img src="/images/phone-mockup.png" alt="App Screenshot" className="object-contain h-full" />
+        <Image src="/images/phone-mockup.png" alt="App Screenshot" className="object-contain h-full" />
       </div>
     </div>
   </section>

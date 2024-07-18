@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const FamiliarScenarios = () => (
   <section className=" py-16">
@@ -16,14 +17,14 @@ const FamiliarScenarios = () => (
           <div className="text-5xl mb-4">😲</div> {/* Add emoji here */}
           <p className="text-lg font-medium text-gray-800">You get a promotion at work</p>
           <p className="mt-2 text-gray-600">
-            You question yourself and wonder when they’ll realize you’re an unqualified imposter, instead of trusting yourself & your abilities.
+            You question yourself and wonder when theyll realize youre an unqualified imposter, instead of trusting yourself & your abilities.
           </p>
         </div>
         <div className="bg-purple-500 p-6 rounded-lg shadow-md transform -rotate-6 flex flex-col items-center">
           <div className="text-5xl mb-4">😕</div> {/* Add emoji here */}
           <p className="text-lg font-medium text-white">You attend a class reunion</p>
           <p className="mt-2 text-white">
-            You compare yourself with your peers' achievements, instead of making self-judgment more independent of others.
+            You compare yourself with your peers achievements, instead of making self-judgment more independent of others.
           </p>
         </div>
         <div className="bg-yellow-100 p-6 rounded-lg shadow-md flex flex-col items-center">

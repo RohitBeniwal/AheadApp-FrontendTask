@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const EqBeatsIq = () => (
   <section className="bg-white py-24">
